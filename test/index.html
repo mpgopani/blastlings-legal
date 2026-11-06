@@ -49,6 +49,11 @@
   li p { margin: 0; color: var(--muted); font-size: 0.95rem; }
   a.button { display: block; text-align: center; text-decoration: none; background: var(--accent); color: var(--accent-text); font-weight: 700; border-radius: 999px; padding: 13px 18px; }
   a.button:focus-visible { outline: 3px solid var(--text); outline-offset: 2px; }
+  .help { margin-top: 18px; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px; }
+  .help h2 { margin: 0 0 8px; font-size: 1.05rem; }
+  .help ul { margin: 0; padding-left: 18px; display: grid; gap: 8px; color: var(--muted); font-size: 0.95rem; }
+  .help strong { color: var(--text); }
+  .help a { color: var(--accent); }
   .note { margin-top: 20px; color: var(--muted); font-size: 0.9rem; }
   .note a { color: var(--accent); }
 </style>
@@ -74,6 +79,16 @@
     <a class="button" href="https://play.google.com/apps/testing/com.blastlings.game">Become a tester</a>
   </li>
 </ol>
+
+<section class="help">
+  <h2>Play says "Item not found"?</h2>
+  <ul>
+    <li><strong>Check the account.</strong> In the Play Store app, tap your profile picture (top right) and switch to the Google account you used in step 1. Then open the <a href="https://play.google.com/apps/testing/com.blastlings.game">Become a tester</a> link again.</li>
+    <li><strong>Did step 2 say "You are now a tester"?</strong> If it still shows a <em>Become a tester</em> button, press it.</li>
+    <li><strong>Give it time.</strong> Google can take up to a few hours to let a new tester in. Try again later.</li>
+    <li><strong>Still stuck?</strong> Settings → Apps → Google Play Store → Storage → <em>Clear cache</em>, then try again.</li>
+  </ul>
+</section>
 
 <p class="note">Please keep it installed for at least 14 days and play now and then: it helps the game launch on Google Play. Questions or feedback: mitulpgopani@gmail.com</p>
 </body>
