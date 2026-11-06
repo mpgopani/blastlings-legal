@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Test Blastlings</title>
+<meta name="description" content="Join the Blastlings Android test in two taps.">
+<!-- Source: docs/store/test-invite.html (T-250), published at https://mpgopani.github.io/blastlings-legal/test/.
+     Testers must join the Google Group first, then opt in with the same Google account (docs/25 §6). -->
+<style>
+  :root {
+    --bg: #f4f2fb;
+    --card: #ffffff;
+    --text: #1d1a33;
+    --muted: #5f5a7a;
+    --line: #dcd8ee;
+    --accent: #6a4fe6;
+    --accent-text: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #110f22;
+      --card: #1b1833;
+      --text: #ece9fb;
+      --muted: #a7a1c8;
+      --line: #322d55;
+      --accent: #8b6cff;
+      --accent-text: #ffffff;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--bg); }
+  body {
+    margin: 0 auto;
+    max-width: 30rem;
+    padding: 28px 16px 48px;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  header { display: flex; gap: 14px; align-items: center; margin-bottom: 22px; }
+  header img { width: 64px; height: 64px; border-radius: 22%; flex: none; }
+  h1 { font-size: 1.5rem; line-height: 1.2; margin: 0; }
+  header p { margin: 2px 0 0; color: var(--muted); font-size: 0.95rem; }
+  ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; counter-reset: step; }
+  li { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px; display: grid; gap: 10px; counter-increment: step; }
+  li h2 { margin: 0; font-size: 1.05rem; display: flex; gap: 10px; align-items: center; }
+  li h2::before { content: counter(step); flex: none; width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; background: var(--accent); color: var(--accent-text); font-size: 0.9rem; }
+  li p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+  a.button { display: block; text-align: center; text-decoration: none; background: var(--accent); color: var(--accent-text); font-weight: 700; border-radius: 999px; padding: 13px 18px; }
+  a.button:focus-visible { outline: 3px solid var(--text); outline-offset: 2px; }
+  .note { margin-top: 20px; color: var(--muted); font-size: 0.9rem; }
+  .note a { color: var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <img src="../store/icon-512.png" alt="Blastlings icon: Pip, a cheerful orange bomb-headed hero">
+  <div>
+    <h1>Test Blastlings</h1>
+    <p>A cute arena bomb game for Android. Two taps, then install.</p>
+  </div>
+</header>
+
+<ol>
+  <li>
+    <h2>Join the tester group</h2>
+    <p>Use the same Google account as on your Android phone, then press <strong>Join group</strong>.</p>
+    <a class="button" href="https://groups.google.com/g/blastlings-testers">Join the group</a>
+  </li>
+  <li>
+    <h2>Become a tester and install</h2>
+    <p>Press <strong>Become a tester</strong>, then <strong>download it on Google Play</strong>. If Play says the app isn't available, wait a few minutes after joining and try again.</p>
+    <a class="button" href="https://play.google.com/apps/testing/com.blastlings.game">Become a tester</a>
+  </li>
+</ol>
+
+<p class="note">Please keep it installed for at least 14 days and play now and then: it helps the game launch on Google Play. Questions or feedback: mitulpgopani@gmail.com</p>
+</body>
+</html>

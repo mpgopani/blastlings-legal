@@ -3,6 +3,7 @@
 Public pages the app stores link to, served by GitHub Pages:
 
 - Privacy Policy: https://mpgopani.github.io/blastlings-legal/privacy/
+- Tester invite (one link to share): https://mpgopani.github.io/blastlings-legal/test/ (source `docs/store/test-invite.html`)
 - Store graphics (the Google Play listing's icon, feature graphic and screenshots): `store/`, e.g. https://mpgopani.github.io/blastlings-legal/store/icon-512.png
 
 Do not edit here by hand. The source of truth is `docs/store/privacy-policy.html` in the main (private) Blastlings
